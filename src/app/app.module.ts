@@ -2,13 +2,17 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { SwiperModule } from 'swiper/angular';
+import { CarrouselComponent } from './components/carrousel/carrousel.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CarrouselComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
